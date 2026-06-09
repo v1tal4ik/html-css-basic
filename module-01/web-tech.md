@@ -32,28 +32,22 @@
 
 HTML (HyperText Markup Language) — мова розмітки для створення структури сторінки.
 
-```html
 <h1>Заголовок</h1>
 <p>Абзац тексту</p>
-```
 
 ## CSS
 
 CSS (Cascading Style Sheets) — мова стилів для оформлення сторінки.
 
-```css
 h1 {
-	color: blue;
+color: blue;
 }
-```
 
 ## JavaScript
 
 JavaScript — мова програмування для створення логіки та взаємодії.
 
-```javascript
 alert("Hello World");
-```
 
 ## Важливо
 
@@ -105,52 +99,40 @@ HTML описує структуру документа за допомогою 
 
 Тег — це команда в кутових дужках.
 
-```html
 <h1></h1>
 <p></p>
 <a></a>
-<img>
-```
+<img />
 
 ## Структура HTML документа
 
-```html
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Мій сайт</title>
-</head>
-<body>
-	Контент сторінки
-</body>
+  <head>
+    <title>Мій сайт</title>
+  </head>
+  <body>
+    Контент сторінки
+  </body>
 </html>
-```
 
 ## Основні теги
 
 Заголовок:
 
-```html
 <h1>Заголовок</h1>
-```
 
 Абзац:
 
-```html
 <p>Текст</p>
-```
 
 Посилання:
 
-```html
 <a href="#">Посилання</a>
-```
 
 Зображення:
 
-```html
-<img src="image.jpg" alt="Image">
-```
+<img src="image.jpg" alt="Image" />
 
 # Висновки
 
