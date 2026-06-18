@@ -1,0 +1,318 @@
+:root {
+  --white-color: #fff;
+  --accent-color: #fd9222;
+}
+
+/* #region Base styles  */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+  background-color: #fafafa;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+/* #endregion Base styles  */
+
+/* #region Common styles  */
+
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -3%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
+.text-white {
+  color: var(--white-color);
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -3%;
+  text-transform: uppercase;
+}
+
+.logo-accent {
+  font-style: italic;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 100px;
+}
+.btn-accent {
+  color: var(--white-color);
+  background: var(--accent-color);
+  border: none;
+}
+.btn-accent:hover,
+.btn-accent:focus {
+  color: var(--accent-color);
+  background: #fcf1e0;
+}
+
+.btn-light {
+  color: var(--white-color);
+  background: transparent;
+  border: 1px solid white;
+}
+.btn-light:hover,
+.btn-light:focus {
+  color: var(--accent-color);
+}
+
+.btn-dark {
+  font-size: 18px;
+  color: currentColor;
+  background: transparent;
+  border: 1px solid var(--accent-color);
+}
+.btn-dark:hover,
+.btn-dark:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/* #endregion Common styles  */
+
+/* #region Header styles  */
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--accent-color);
+}
+
+/* #endregion Header styles  */
+
+/* #region Hero styles  */
+
+.hero {
+  background-color: rgba(17, 17, 17, 0.4);
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -3%;
+  color: var(--white-color);
+}
+
+.hero-link {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+}
+.hero-link:hover,
+.hero-link:focus {
+  color: var(--accent-color);
+}
+
+/* #endregion Hero styles  */
+
+/* #region Benefits styles  */
+
+.benefits {
+  background: #1e1823;
+}
+.benefits-caption {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: var(--white-color);
+}
+.benefits-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* #endregion Benefits styles  */
+
+/* #endregion Ingredients styles  */
+
+.ingredients-item {
+  background: var(--white-color);
+}
+
+.ingredients-caption {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+  text-transform: uppercase;
+}
+
+/* #endregion Ingredients styles  */
+
+/* #region Made styles  */
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.made-list {
+  list-style: disc;
+}
+.made-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+}
+/* #endregion Made styles  */
+
+/* #region Products styles  */
+.products-item {
+  background: var(--white-color);
+}
+
+.products-heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.products-category {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.products-price {
+  font-weight: 600;
+  line-height: 1.21;
+  background-color: #fafafa;
+  border-radius: 100px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+}
+
+/* #endregion Products styles  */
+
+/* #region Bestsellers styles  */
+
+.bestsellers-item {
+  background-attachment: var(--white-color);
+}
+.bestsellers-caption {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+/* #endregion Bestsellers styles  */
+
+/* #region Reviews styles  */
+.reviews-item {
+  background: var(--white-color);
+}
+
+.reviews-author {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.reviews-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -2%;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+/* #endregion Reviews styles  */
+
+/* #region Footer styles  */
+.footer {
+  background: #1e1823;
+}
+
+.footer-slogan {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: var(--white-color);
+}
+
+.footer-caption {
+  font-weight: 500;
+  line-height: 1.29;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.footer-contacts-link {
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: var(--white-color);
+}
+
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-menu-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: var(--white-color);
+}
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: var(--accent-color);
+}
+
+/* #endregion Footer styles  */
