@@ -1,0 +1,86 @@
+:root {
+  --white-color: #fff;
+  --accent-color: #fd9222;
+}
+
+/* #region Base styles  */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+  background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* #endregion Base styles  */
+
+.schedule-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.schedule-table td {
+  padding: 12px 16px;
+  border: 1px solid rgba(46, 47, 66, 0.2);
+}
+
+.schedule-table th {
+  padding: 12px 16px;
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  background-color: #f4f4fd;
+  text-align: left;
+  font-weight: 600;
+}
+.schedule-table thead {
+  background-color: #f4f4fd;
+}
+
+.schedule-table tfoot {
+  background-color: #e7e9fc;
+  font-weight: 600;
+}
+
+.table-caption {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #2e2f42;
+  caption-side: bottom;
+}
