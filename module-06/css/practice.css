@@ -1,0 +1,213 @@
+:root {
+  --white-color: #fff;
+  --accent-color: #fd9222;
+}
+
+/* #region Base styles  */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+  background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* #endregion Base styles  */
+
+/* #region */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+/* #endregion */
+/* /_ ===== БАЗОВІ СТИЛІ (mobile, < 768px) ===== _/ */
+
+.container {
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: none;
+}
+
+.hero {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* /_ ===== ПЛАНШЕТ (>= 768px) ===== _/ */
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .section-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .card-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .card-item {
+    flex-basis: calc((100% - 25px) / 2);
+  }
+
+  .address {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+/* /_ ===== ДЕСКТОП (>= 1200px) ===== _/  */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .hero-title {
+    font-size: 48px;
+  }
+
+  .section-title {
+    font-size: 44px;
+  }
+
+  .card-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+}
+
+/* /_ Тільки десктоп: від 1200px _/ */
+@media (min-width: 1200px) {
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-item {
+    flex-basis: calc((100% - 48px) / 3);
+  }
+}
+
+/* /_ Тільки мобільний: до 767px _/ */
+@media (max-width: 767px) {
+  .hero-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    padding: 24px 0;
+  }
+}
+
+@media print {
+}
